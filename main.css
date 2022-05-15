@@ -1,0 +1,535 @@
+body{
+	background-color:#fff;
+	}
+	
+	#head{
+		background-image:url(images/top.gif);
+		width:795px;
+		height:92px;
+		}
+#wrapper{
+	background-image:url(images/body.gif);
+	background-repeat:repeat-y;
+	background-color:#fff;
+	width:795px;
+	min-height:500px;
+	margin:auto;
+
+	}
+
+
+input{
+	border: 1px solid #c9cbcb;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+	height:20px;}
+	a{
+		font-family:Arial, Helvetica, sans-serif;
+		color:#26859d;
+		text-decoration:none;
+		}
+	a:hover{
+		font-family:Arial, Helvetica, sans-serif;
+		color:#f8a20d;
+		text-decoration:underline;
+		}
+		
+		
+.warning{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#F00;}
+	
+#footer{
+		background-image:url(images/down.gif);
+		background-repeat:no-repeat;
+		width:795px;
+		height:62px;
+		margin-top:60px;
+		}
+#quick{
+	position:relative;
+	left:470px;
+	top:30px;
+	width:288px;
+	}
+#register{
+	position:absolute;
+	left:250px;
+	top:120px;
+	}
+	
+#catalogued{
+	position:absolute;
+	top:290px;
+	left:700px;
+	}
+
+#registered{
+	position:relative;
+	top:50px;
+	left:20px;}
+	
+#findbook{
+	position:absolute;
+	left:700px;
+	top:460px;
+	}
+	
+
+#borrow{
+	position:relative;
+	top:90px;
+	left:20px;}
+
+
+#findauthor{
+	position:relative;
+	top:100px;
+	left:250px;
+	margin-bottom:140px;}
+
+.create{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#26859d;
+	margin-left:20px;}
+
+.centerimg{
+	position:relative;
+	top:10px;
+	left:30px;}
+
+.createline{
+	position:relative;
+	top:-10px;
+	left:20px;}
+	
+.submit{
+	background-image:url(images/submitbutton.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	}
+.submit:hover{
+	background-image:url(images/submitbutton_hover.gif);
+	width:138px;
+	height:58px;
+		cursor:pointer;
+
+}
+.authortab{
+	margin:25px 0 20px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	}
+.authorfield{
+	width:750px;
+	margin-top:20px 0 20px 0;
+	position:relative;
+	left:15px;
+	}
+	
+.tittab{
+		margin:25px 0 20px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+	
+.titfield{
+		width:750px;
+	margin-top:20px;
+	position:relative;
+	left:15px;
+}
+
+.numtab{
+		margin:25px 0 20px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	}
+
+.numfield{
+		width:750px;
+	margin-top:20px;
+	position:relative;
+	left:15px;
+	margin-bottom:50px;
+	}
+	
+.bookstable{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	}
+
+.booksfield{
+	width:760px;
+	margin:30px 0 100px 12px;
+	}
+.thead{
+	background-image:url(images/tablehead.gif);
+	width:755px;
+	height:55px;
+	background-repeat:no-repeat;
+	}
+.thead td{
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-size:18px;
+	border-collapse:collapse;}
+	
+	
+.treven{
+	height:35px;
+	font-size:14px;
+	}
+.treven:hover{
+	background-color:#3aa4bf;
+	color:#fff;
+}
+.total{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:50px;
+	color:#dddcdc;
+	margin:0;
+	text-align:center;
+	}
+
+.authorname{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:50px;
+	color:#dddcdc;
+	margin:0;
+	text-align:center;
+	position:relative;
+	top:-60px;
+	left:60px;
+	}
+.authornamefield{
+	height:290px;
+	margin:30px 0 30px 17px;
+	width:750px;
+	}
+	
+	
+.borrowbutton{
+	background-image:url(images/borrowbutton.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	}
+	
+.borrowbutton:hover{
+	background-image:url(images/borrowbutton_hover.gif);
+	width:138px;
+	height:58px;
+		cursor:pointer;
+	}
+	
+
+
+
+.return{
+	background-image:url(images/return.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	}
+	
+.return:hover{
+	background-image:url(images/return_hover.gif);
+	width:138px;
+	height:58px;
+		cursor:pointer;
+	}
+	
+
+
+
+
+
+
+	
+.otherauthorfield{
+	margin:30px 0 30px 17px;
+	width:750px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+
+.titsubfield{
+	margin:30px 0 30px 17px;
+	width:750px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+
+.numberfield{
+	margin:30px 0 30px 17px;
+	width:750px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+
+.edit{
+	background-image:url(images/edit.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	margin:10px 0 50px 0;
+	}
+
+	.edit:hover{
+	background-image:url(images/edit_hover.gif);
+	width:138px;
+	height:58px;
+	cursor:pointer;
+}
+
+.t{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#3aa4bf;
+	margin:0;
+	}
+.number{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#f8a20d;
+	margin:0;
+	}
+	
+.update{
+	background-image:url(images/updatebutton.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	margin:10px 0 50px 0;
+}
+.update:hover{
+	background-image:url(images/updatehover.gif);
+	width:138px;
+	height:58px;
+		cursor:pointer;
+}
+
+.grey{
+	color:#999;}
+	
+
+.searchtab{
+	margin:40px auto 60px auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+	
+.search{
+	background-image:url(images/searchbutton_hover.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	margin:0;
+	position:relative;
+	margin-bottom:5px;
+	}
+.search:hover{
+	background-image:url(images/searchbutton.gif);
+	width:138px;
+	height:58px;
+	margin:0;
+	cursor:pointer;
+		margin-bottom:7px;
+}
+
+
+.regmem{
+		background-image:url(images/registerbutton.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	margin-bottom:30px;
+}
+
+.regmem:hover{
+		background-image:url(images/registerbutton_hover.gif);
+	width:138px;
+	height:58px;
+	margin:0;
+	cursor:pointer;
+	margin-bottom:30px;
+	}
+
+
+.searchtextfield{
+	background-image:url(images/search.gif);
+	background-repeat:no-repeat;
+	width:544px;
+	height:53px;
+	border:1px solid #FFF;
+	padding:10px 0 0 10px;
+	font-size:20px;
+	color:#000;}
+
+.confirmfield{
+	height:300px;
+	width:750px;
+	margin:50px 0 50px 18px;
+	padding-top:100px;
+	}
+
+.blue{
+	color:#3aa4bf;
+	}
+.conf{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;
+	margin:0;
+	position:relative;
+	top:35px;
+	text-align:center;}
+
+
+.memberstable{
+	font-family:Tahoma, Geneva, sans-serif;
+	width:757px;
+	margin:50px 0 50px 15px;
+	
+	}
+	
+
+	
+.row{
+	font-family:Tahoma, Geneva, sans-serif;
+	height:35px;
+	font-size:12px;
+	}
+.row:hover{
+	background-color:#f8a20d;
+	color:#fff;
+}
+
+.row a:hover{
+	color:#fff;
+	}
+
+.membersthead{
+		background-image:url(images/tablehead.gif);
+	width:760px;
+	height:55px;
+	background-repeat:no-repeat;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+}
+
+
+.registerfield{
+	width:755px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin:50px 0 50px 15px;
+	}
+.title{
+	height:35px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#000;
+	}
+
+
+
+.bornamefield{
+	width:750px;
+	margin:30px 0 100px 15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+
+
+.error{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:26px;
+	color:#F00;
+	position:relative;
+	top:-100px;
+	left:200px;
+	 }
+	 
+	 
+	.errorfield{
+	width:750px;
+	height:130px;
+	margin-top:20px 0 20px 0;
+	position:relative;
+	left:15px;
+	margin-bottom:30px;
+	}
+	
+.emptyfield{
+	width:750px;
+	height:130px;
+	margin-top:20px 0 20px 0;
+	position:relative;
+	left:15px;
+	margin:150px 0 150px 0;
+	}
+
+.resultbookfield{
+	font-family:Tahoma, Geneva, sans-serif;
+	width:757px;
+	font-size:12px;
+	margin:50px 0 50px 15px;
+	
+	}
+	
+.resultbookfield td{
+	font-size:12px;
+}
+
+.select{
+	font-family:Tahoma, Geneva, sans-serif;
+		color:#000;
+		font-size:16px;
+}
+.author{
+	position:relative;
+	top:0px;
+	color:#f8a20d;
+	overflow:hidden;
+}
+	
+	
+	
+.boook{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#f8a20d;
+	position:relative;
+	top:-75px;
+	left:50px;
+	}
